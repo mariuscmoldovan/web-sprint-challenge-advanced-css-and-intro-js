@@ -218,6 +218,7 @@ console.log("Task 1.2:", artists[2].bio);
 (no function needed) 
 There is a typo in your dataset 😱 The 9th artist, Vincent Van Gogh is currently Vincent Van Dough. Use an array method to fix this issue and console.log() to check your work. */
 artists.[8].name = "Vincet Van Gogh";
+
 console.log("Task 2:", artists[8].name);
 
 
@@ -358,8 +359,8 @@ function getHTML(/* Code here */){
 /* 💪💪💪💪💪💪 STRETCH 2: 💪💪💪💪💪💪
 Create a function called `randomize` that takes a data array as an argument and returns a the same array in a randomized order. */
 
-function randomize(/* Code here */){
-
+function randomize(array){
+  
     /* Code here */
 
   }
